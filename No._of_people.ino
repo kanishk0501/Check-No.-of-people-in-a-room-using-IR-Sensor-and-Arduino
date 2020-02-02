@@ -30,7 +30,7 @@ if (v1s==0){
 }
 }
 Serial.println(j);
-elseif (v2s==0){
+else if (v2s==0){
   for (k=0;k=300;k++)
 {
   if (v1s==0){
