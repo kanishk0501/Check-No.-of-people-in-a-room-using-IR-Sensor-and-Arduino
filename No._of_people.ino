@@ -21,7 +21,7 @@ v1s = digitalRead(S1);
 v2s = digitalRead(S2);
 j = 0;
 if (v1s==0){
-  for (i=0;i=300;i++)
+  for (i=0;i<300;i++)
 {
   if (v2s==0){
     j = j+1;
@@ -30,7 +30,7 @@ if (v1s==0){
 }
 }
 else if (v2s==0){
-  for (k=0;k=300;k++)
+  for (k=0;k<300;k++)
 {
   if (v1s==0){
     j = j-1;
